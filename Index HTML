@@ -62,75 +62,99 @@
 
 <body>
 
-    <header>
-        <h1>Agro Forte, Futuro Sustentável</h1>
-        <p>Equilíbrio entre produção e meio ambiente</p>
-    </header>
+<header>
+    <h1>Agro Forte, Futuro Sustentável</h1>
+    <p>Equilíbrio entre produção e meio ambiente</p>
+</header>
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#sustentabilidade">Sustentabilidade</a>
-        <a href="#tecnologias">Tecnologias</a>
-        <a href="#impactos">Impactos Ambientais</a>
-        <a href="#solucoes">Soluções</a>
-    </nav>
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#tecnologia">Tecnologia</a>
+    <a href="#impactos">Impactos Ambientais</a>
+    <a href="#solucoes">Soluções</a>
+</nav>
 
-    <section id="inicio">
-        <h2>O Agronegócio e sua Importância</h2>
-        <img src="campo.jpg" alt="Campo agrícola">
-        <p>
-            O agronegócio é um dos setores mais importantes da economia,
-            responsável pela produção de alimentos, geração de empregos e
-            desenvolvimento econômico. Além disso, o setor busca cada vez mais
-            formas de produzir de maneira sustentável.
-        </p>
-    </section>
+<section id="inicio">
+    <h2>O Agronegócio e sua Importância</h2>
+    <img src="campo.jpg" alt="Campo agrícola">
+    <p>
+        O agronegócio é um dos setores mais importantes da economia brasileira,
+        sendo responsável pela produção de alimentos, geração de empregos e
+        desenvolvimento econômico. Além disso, o setor busca cada vez mais
+        formas de produzir de maneira sustentável.
+    </p>
+</section>
 
-    <section id="sustentabilidade">
-        <h2>Sustentabilidade no Campo</h2>
-        <p>
-            A sustentabilidade no campo envolve práticas que ajudam a preservar
-            os recursos naturais. Entre elas estão o uso consciente da água,
-            a conservação do solo e a redução do desperdício durante a produção.
-        </p>
-    </section>
+<section id="sustentabilidade">
+    <h2>Sustentabilidade no Campo</h2>
+    <p>
+        A sustentabilidade no campo envolve práticas que ajudam a preservar os
+        recursos naturais. Entre elas estão o uso consciente da água, a
+        conservação do solo e a redução do desperdício durante a produção.
+    </p>
 
-    <section id="tecnologias">
-        <h2>Tecnologias Sustentáveis</h2>
-        <img src="tecnologia-agricola.jpg" alt="Tecnologia agrícola">
-        <ul>
-            <li>Agricultura de precisão</li>
-            <li>Irrigação inteligente</li>
-            <li>Drones agrícolas</li>
-            <li>Uso de energia renovável</li>
-        </ul>
-        <p>
-            Essas tecnologias aumentam a produtividade e ajudam a reduzir os
-            impactos ambientais das atividades agrícolas.
-        </p>
-    </section>
+    <ul>
+        <li>Uso consciente da água</li>
+        <li>Preservação do solo</li>
+        <li>Redução do desperdício</li>
+        <li>Proteção das áreas de vegetação nativa</li>
+    </ul>
+</section>
 
-    <section id="impactos">
-        <h2>Impactos Ambientais</h2>
-        <p>
-            Algumas práticas agrícolas podem causar impactos ambientais, como
-            desmatamento, emissão de gases de efeito estufa e consumo excessivo
-            de água. Por isso, é importante buscar formas mais sustentáveis de produção.
-        </p>
-    </section>
+<section id="tecnologia">
+    <h2>Tecnologias Sustentáveis</h2>
+    <img src="tecnologia-agricola.jpg" alt="Tecnologia agrícola">
 
-    <section id="solucoes">
-        <h2>Soluções Sustentáveis</h2>
-        <p>
-            O equilíbrio entre produção e preservação ambiental pode ser alcançado
-            por meio do reflorestamento, uso eficiente dos recursos naturais,
-            energias renováveis e aplicação de tecnologias modernas no campo.
-        </p>
-    </section>
+    <p>
+        A inovação tecnológica tem ajudado a tornar a agricultura mais eficiente
+        e sustentável.
+    </p>
 
-    <footer>
-        <p>Agro Forte, Futuro Sustentável © 2026</p>
-    </footer>
+    <ul>
+        <li>Agricultura de precisão</li>
+        <li>Irrigação inteligente</li>
+        <li>Drones agrícolas</li>
+        <li>Uso de energia renovável</li>
+    </ul>
+
+    <p>
+        Essas tecnologias aumentam a produtividade e ajudam a reduzir os
+        impactos ambientais das atividades agrícolas.
+    </p>
+</section>
+
+<section id="impactos">
+    <h2>Impactos Ambientais</h2>
+
+    <p>
+        Algumas práticas agrícolas podem causar impactos ambientais, como
+        desmatamento, emissão de gases de efeito estufa e consumo excessivo de
+        água. Por isso, é importante buscar formas mais sustentáveis de
+        produção.
+    </p>
+
+    <ul>
+        <li>Desmatamento</li>
+        <li>Emissão de gases de efeito estufa</li>
+        <li>Consumo excessivo de água</li>
+        <li>Degradação do solo</li>
+    </ul>
+</section>
+
+<section id="solucoes">
+    <h2>Soluções Sustentáveis</h2>
+
+    <p>
+        O equilíbrio entre produção e preservação ambiental pode ser alcançado
+        por meio do reflorestamento, uso eficiente dos recursos naturais,
+        energias renováveis e aplicação de tecnologias modernas no campo.
+    </p>
+</section>
+
+<footer>
+    <p>Agro Forte, Futuro Sustentável © 2026</p>
+</footer>
 
 </body>
 </html>
