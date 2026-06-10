@@ -1,166 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agro Forte, Futuro Sustentável</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
 
-<style>
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-        font-family: Arial, sans-serif;
-    }
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-    body{
-        background-color:#f4f4f4;
-        color:#333;
-        line-height:1.6;
-    }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
 
-    header{
-        background: #2e7d32;
-        color:white;
-        text-align:center;
-        padding:30px;
-    }
+        nav {
+            background-color: #1b5e20;
+            text-align: center;
+            padding: 10px;
+        }
 
-    nav{
-        background:#1b5e20;
-        text-align:center;
-        padding:10px;
-    }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
 
-    nav a{
-        color:white;
-        text-decoration:none;
-        margin:0 15px;
-        font-weight:bold;
-    }
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
 
-    section{
-        padding:30px;
-        max-width:1000px;
-        margin:auto;
-    }
+        h2 {
+            color: #2e7d32;
+        }
 
-    h2{
-        color:#2e7d32;
-        margin-bottom:15px;
-    }
+        img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 10px auto;
+        }
 
-    .imagem{
-        width:100%;
-        border-radius:10px;
-        margin:15px 0;
-    }
-
-    .card{
-        background:white;
-        padding:20px;
-        margin:20px 0;
-        border-radius:10px;
-        box-shadow:0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    footer{
-        background:#2e7d32;
-        color:white;
-        text-align:center;
-        padding:15px;
-        margin-top:20px;
-    }
-</style>
-
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Agro Forte, Futuro Sustentável</h1>
-    <p>Equilíbrio entre produção e meio ambiente</p>
-</header>
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>Equilíbrio entre produção e meio ambiente</p>
+    </header>
 
-<nav>
-    <a href="#inicio">Início</a>
-    <a href="#sustentabilidade">Sustentabilidade</a>
-    <a href="#tecnologia">Tecnologia</a>
-    <a href="#impactos">Impactos</a>
-    <a href="#solucoes">Soluções</a>
-</nav>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#impactos">Impactos Ambientais</a>
+        <a href="#solucoes">Soluções</a>
+    </nav>
 
-<section id="inicio">
-    <div class="card">
+    <section id="inicio">
         <h2>O Agronegócio e sua Importância</h2>
-        <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Campo agrícola" class="imagem">
+        <img src="campo.jpg" alt="Campo agrícola">
         <p>
-            O agronegócio é um dos principais setores da economia brasileira. 
-            Ele contribui para a produção de alimentos, geração de empregos e desenvolvimento econômico. 
-            Além disso, o setor está cada vez mais investindo em tecnologias que aumentam a produtividade e reduzem os impactos ambientais.
+            O agronegócio é um dos setores mais importantes da economia,
+            responsável pela produção de alimentos, geração de empregos e
+            desenvolvimento econômico. Além disso, o setor busca cada vez mais
+            formas de produzir de maneira sustentável.
         </p>
-    </div>
-</section>
+    </section>
 
-<section id="sustentabilidade">
-    <div class="card">
+    <section id="sustentabilidade">
         <h2>Sustentabilidade no Campo</h2>
         <p>
-            A sustentabilidade no campo busca garantir a produção agrícola sem comprometer os recursos naturais. 
-            Algumas práticas importantes são:
+            A sustentabilidade no campo envolve práticas que ajudam a preservar
+            os recursos naturais. Entre elas estão o uso consciente da água,
+            a conservação do solo e a redução do desperdício durante a produção.
         </p>
-        <ul>
-            <li>Uso consciente da água;</li>
-            <li>Preservação do solo;</li>
-            <li>Redução do desperdício;</li>
-            <li>Proteção das áreas de vegetação nativa.</li>
-        </ul>
-    </div>
-</section>
+    </section>
 
-<section id="tecnologia">
-    <div class="card">
+    <section id="tecnologias">
         <h2>Tecnologias Sustentáveis</h2>
-        <img src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8" alt="Tecnologia agrícola" class="imagem">
-        <p>
-            A inovação tecnológica tem ajudado a tornar a agricultura mais eficiente e sustentável. Entre os exemplos estão:
-        </p>
+        <img src="tecnologia-agricola.jpg" alt="Tecnologia agrícola">
         <ul>
-            <li>Agricultura de precisão;</li>
-            <li>Irrigação inteligente;</li>
-            <li>Drones agrícolas;</li>
-            <li>Uso de energia renovável nas fazendas.</li>
+            <li>Agricultura de precisão</li>
+            <li>Irrigação inteligente</li>
+            <li>Drones agrícolas</li>
+            <li>Uso de energia renovável</li>
         </ul>
-    </div>
-</section>
+        <p>
+            Essas tecnologias aumentam a produtividade e ajudam a reduzir os
+            impactos ambientais das atividades agrícolas.
+        </p>
+    </section>
 
-<section id="impactos">
-    <div class="card">
+    <section id="impactos">
         <h2>Impactos Ambientais</h2>
         <p>
-            Apesar de sua importância, a produção agrícola pode causar impactos ambientais quando não é realizada de forma responsável. Alguns exemplos são:
+            Algumas práticas agrícolas podem causar impactos ambientais, como
+            desmatamento, emissão de gases de efeito estufa e consumo excessivo
+            de água. Por isso, é importante buscar formas mais sustentáveis de produção.
         </p>
-        <ul>
-            <li>Desmatamento;</li>
-            <li>Emissão de gases do efeito estufa;</li>
-            <li>Consumo excessivo de água;</li>
-            <li>Degradação do solo.</li>
-        </ul>
-    </div>
-</section>
+    </section>
 
-<section id="solucoes">
-    <div class="card">
-        <h2>Soluções para um Futuro Sustentável</h2>
+    <section id="solucoes">
+        <h2>Soluções Sustentáveis</h2>
         <p>
-            Para equilibrar produção e preservação ambiental, é necessário investir em práticas sustentáveis e tecnologias inovadoras. 
-            O uso eficiente dos recursos naturais, a recuperação de áreas degradadas e a adoção de energias renováveis são algumas das soluções que ajudam a construir um futuro mais sustentável para o agronegócio.
+            O equilíbrio entre produção e preservação ambiental pode ser alcançado
+            por meio do reflorestamento, uso eficiente dos recursos naturais,
+            energias renováveis e aplicação de tecnologias modernas no campo.
         </p>
-    </div>
-</section>
+    </section>
 
-<footer>
-    <p>Agro Forte, Futuro Sustentável © 2026</p>
-</footer>
+    <footer>
+        <p>Agro Forte, Futuro Sustentável © 2026</p>
+    </footer>
 
 </body>
 </html>
